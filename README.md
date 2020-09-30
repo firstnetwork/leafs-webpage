@@ -2,5 +2,5 @@
 This is a repository of newbies who are just learning to build a website.
 
 # Webpage:
-> Modern Design
+> Modern Design,
 > Animation Typewriter
