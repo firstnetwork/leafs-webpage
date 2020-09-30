@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+/* Prompt (Thai Language) */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Inter (English Language) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    background: #fbfcfd;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.navigation_bar {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fbfcfd;
+}
+
+.list_menus {
+    padding: 3px 20px;
+    position: relative;
+    top: -7.5px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    display: inline-block;
+    background: #333333;
+    border-radius: 15px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.list_menus li {
+    padding: 6px;
+    float: right;
+}
+
+.list_menus li a {
+    font-size: 13.5px;
+    color: #a4aab1;
+    text-decoration: none;
+}
+
+.list_menus li a.btn-active {
+    padding: 6px 12px;
+    color: #e0e6eb;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    border-radius: 80px;
+}
+
+.list_menus li a:hover:not(.btn-active) {
+    transition: 0.3s ease-in-out;
+    color: #fbfcfd;
+}
+
+.context_logo {
+    position: relative;
+    top: 7.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.context_logo img {
+    padding-top: 10px;
+}
+
+.context_logo h2 {
+    padding: 8px 8px;
+    font-size: 32px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: right;
+}
+
+.search_container {
+    position: relative;
+    top: 22.5px;
+    left: -100px;
+    display: inline-block;
+    float: right;
+}
+
+.search_container input[type=text] {
+    padding: 10px 20px;
+    border: 2px 2px solid #333333;
+    border-radius: 50px;
+}
+
+.search_container button {
+    padding: 6px;
+    border-radius: 60px;
+    
+}
+
+.authentication {
+    position: relative;
+    top: -2.5px;
+    bottom: 0;
+    left: 530px;
+    right: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.authentication a {
+    padding: 13.5px;
+    font-size: 32px;
+    color: #333333;
+}
+
+.authentication a:hover {
+    padding-bottom: 13.5px;
+    transition: 0.3s ease-in-out;
+    font-size: 30px;
+}
+
+.social_networking {
+    position: relative;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    z-index: 700;
+}
+
+.typewriter {
+    position: relative;
+    top: -200px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.typewriter h1 {
+    font-weight: 800;
+    overflow: hidden;
+    border-right: .15em solid lightgreen;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+.box-message-hero {
+    position: relative;
+    top: -150px;
+    bottom: 0;
+    left: 735px;
+    right: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.box-message-hero p {
+    font-weight: 200;
+    text-align: center;
+}
+
+.box-message-hero p a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #5b5f61;
+}
+
+.btn-cloud {
+    position: relative;
+    top: -100px;
+    bottom: 0;
+    left: 495px;
+    right: 0;
+    display: inline-block;
+}
+
+.btn-cloud a {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #fbfcfd;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    border-radius: 70px;
+}
+
+.footer {
+    position: relative;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: #333333;
+    color: #fbfcfd;
+}
+
+.context_footer_logo {
+    position: relative;
+    top: 45px;
+    left: -100px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.sub-logo {
+    position: relative;
+    top: 10px;
+    left: -25px;
+    font-weight: 400;
+}
+
+.context_footer_logo h2 {
+    padding: 8px 8px;
+    font-size: 32px;
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: right;
+}
+
+.context_footer_logo p {
+    position: relative;
+    top: -26px;
+    left: 10x;
+    font-weight: 300;
+}
+
+.copyright {
+    position: relative;
+    top: -35px;
+    left: 35px;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: lightgreen; }
+  }
